@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo "Hello World"'
                 sh 'uname -a'
-                sh 'ls -al'
+                sh 'ls -a'
                 sh '''
                     echo "Multiline shell steps works too"
                     ls -lah
